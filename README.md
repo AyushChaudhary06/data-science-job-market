@@ -2,7 +2,7 @@
 
 A data analytics project that explores the **DA/DS job market** using real Glassdoor job posting data. Built with Python, SQL, and Streamlit — fully interactive and deployed live.
 
-🔗 **Live App:** [View on Streamlit Cloud](#) *(deploy link here)*  
+🔗 **Live App:** [View on Streamlit Cloud](#) *https://ds-job-market-harsh.streamlit.app*  
 📁 **Dataset:** Glassdoor Data Science Jobs (Kaggle)
 
 ---
