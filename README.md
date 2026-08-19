@@ -1,115 +1,93 @@
-# 📊 Data Science Job Market Intelligence Dashboard
+# 📊 Data Science Job Market Dashboard
 
-A data analytics project that explores the **DA/DS job market** using real Glassdoor job posting data. Built with Python, SQL, and Streamlit — fully interactive and deployed live.
+An interactive dashboard for analyzing the **Data Science & Analytics job market** using Python, Pandas, SQL, Plotly, and Streamlit.
 
-🔗 **Live App:** [View on Streamlit Cloud](#) *https://ds-job-market-harsh.streamlit.app*  
-📁 **Dataset:** Glassdoor Data Science Jobs (Kaggle)
+## 🚀 Live Demo
 
----
+🌐 **[View Live Dashboard](https://ayushchaudhary06-data-science-job-market-appapp-qhx8lw.streamlit.app/)**
 
-## 🧠 Project Overview
-
-This project answers real questions that every data professional asks:
-
-- Which cities have the most DA/DS job openings?
-- What skills are companies demanding the most?
-- How does salary vary across roles, company size, and sector?
-- Which companies are hiring aggressively right now?
+💻 **[View Source Code](https://github.com/AyushChaudhary06/data-science-job-market)**
 
 ---
 
-## 🔍 Key Insights
+## 🎯 Project Overview
 
-| Insight | Finding |
-|--------|---------|
-| 🥇 Most in-demand skill | **SQL** (1,389 job postings) |
-| 🥈 Second most demanded | **Excel** (1,354 job postings) |
-| 🐍 Top programming language | **Python** (637 postings) |
-| 📊 Most common role | Data Analyst |
-| 🏙️ Top hiring city | New York, NY |
+This project analyzes job-posting data to uncover insights about:
+
+* 💼 Job roles and demand
+* 🔧 Most required skills
+* 💰 Salary trends
+* 📍 Job locations
+* 🏢 Hiring companies
+* 📊 Industry and company-size trends
+
+The goal is to help **students, job seekers, and analysts** understand the Data Science job market.
+
+---
+
+## ✨ Features
+
+* 📊 Interactive job-market dashboard
+* 🔧 Skill demand analysis
+* 💰 Salary analysis
+* 🏢 Company intelligence
+* 📍 Location-wise job analysis
+* 📈 Interactive Plotly visualizations
+* 🔍 Role-based analysis
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer | Tools Used |
-|-------|-----------|
-| Data Cleaning | Python, Pandas |
-| Analysis | Pandas, Plotly |
-| Database | PostgreSQL + SQL queries |
-| Dashboard | Streamlit, Plotly Express |
-| Deployment | Streamlit Community Cloud |
+**Python • Pandas • SQL • Plotly • Streamlit • Git & GitHub**
 
 ---
 
 ## 📁 Project Structure
 
-```
-job-market-analysis/
+```text
+data-science-job-market/
 │
 ├── app/
-│   └── app.py                  # Streamlit app (4 pages)
-│
+│   └── app.py
 ├── data/
-│   ├── raw/                    # Original Kaggle dataset
-│   └── processed/
-│       ├── cleaned_jobs.csv    # Cleaned job postings
-│       └── skills_data.csv     # Exploded skills per job
-│
 ├── notebooks/
-│   └── data_cleaning.ipynb     # EDA + data cleaning pipeline
-│
 ├── sql/
-│   └── analysis_queries.sql    # Key business queries
-│
+├── requirements.txt
 └── README.md
 ```
 
 ---
 
-## 📱 App Pages
-
-### 📊 Market Snapshot
-KPI tiles (total jobs, companies, cities, avg salary, avg rating) + jobs by role, jobs by city, sector breakdown, company size distribution.
-
-### 🔧 Skill Demand
-Top skills overall + skill demand filtered by role — helps identify what to learn based on target role.
-
-### 💰 Salary Analysis
-Salary distribution by role (box plots), by sector, by company size, and by city. Includes Rating vs Salary scatter.
-
-### 🏢 Company Intel
-Top 20 hiring companies, ownership type breakdown, company age vs hiring trends, and a searchable company explorer table.
-
----
-
-## ⚙️ How to Run Locally
+## 💻 Run Locally
 
 ```bash
-# 1. Clone the repo
-git clone https://github.com/GIT-BYHARSH/job-market-analysis.git
-cd job-market-analysis
-
-# 2. Install dependencies
+git clone https://github.com/AyushChaudhary06/data-science-job-market.git
+cd data-science-job-market
 pip install -r requirements.txt
-
-# 3. Run the app
 streamlit run app/app.py
 ```
 
 ---
 
-## 📦 Requirements
+## 🧠 Skills Demonstrated
 
-```
-streamlit>=1.37.0
-pandas>=2.0.0
-plotly>=5.0.0
-```
+**Data Cleaning • EDA • SQL • Data Visualization • Python • Streamlit • Dashboard Development • Git & GitHub**
 
 ---
 
-## 👤 Author
+## 👨‍💻 Author
 
-**Harsh** — B.Tech CSE (AI & ML), ABES Engineering College  
-📧 [LinkedIn](https://linkedin.com/in/your-profile) | 💻 [GitHub](https://github.com/GIT-BYHARSH)
+### Ayush Chaudhary
+
+B.Tech Computer Science Engineering Student
+
+🔗 **GitHub:** [AyushChaudhary06](https://github.com/AyushChaudhary06)
+
+🔗 **LinkedIn:** **[Add Your LinkedIn Profile](https://www.linkedin.com/in/ayush-chaudhary-9a160433a/)**
+
+🌐 **Live App:** [Data Science Job Market Dashboard](https://ayushchaudhary06-data-science-job-market-appapp-qhx8lw.streamlit.app/)
+
+---
+
+⭐ If you find this project useful, consider giving it a star!
